@@ -77,6 +77,29 @@ nav {
     color: white;
 }
 
+.dropdown div {
+    display: flex;
+}
+
+.dropdown svg {
+    color: #c8c6c6;
+    width: 20px;
+    font-weight: 500;
+}
+
+.dropdown svg:hover {
+    color: #08d665;
+    rotate: 180deg;
+    transition: rotate 0.3s ease;  
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
 .logo {
   font-size: 3.5rem;
   font-weight: 700;
