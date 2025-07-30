@@ -1,0 +1,87 @@
+/* media queries for medium-size screens (iPad, Samsung Tabs, etc) */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .header-nav-links {
+    gap: 1.5rem;
+  }
+
+  .header-nav-links li a {
+    font-size: 0.9rem;
+  }
+
+  .logo,
+  .icon {
+    font-size: 1.3rem;
+  }
+}
+
+/* media queries for mobile screens */
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem;
+    position: relative;
+  }
+
+  .header-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #1a1a1a;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .header-nav-links.active {
+    display: flex;
+  }
+
+  .header-nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .header-nav-links li a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
+}
+
+/* media queries for large screens */
+@media screen and (min-width: 1200px) {
+  nav {
+    padding: 1.5rem 8rem;
+  }
+
+  .header-nav-links {
+    gap: 3rem;
+  }
+
+  .header-nav-links li a {
+    font-size: 1.1rem;
+  }
+
+  .logo,
+  .icon {
+    font-size: 1.8rem;
+  }
+}

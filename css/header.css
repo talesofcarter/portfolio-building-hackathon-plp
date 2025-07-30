@@ -1,0 +1,121 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5rem;
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.header-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav-links li {
+  position: relative;
+}
+
+.header-nav-links li a {
+  color: #c8c6c6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.header-nav-links li a:hover {
+  color: #08d665;
+}
+
+.header-nav-links li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #08d665;
+  transition: width 0.3s ease-in-out;
+}
+
+.header-nav-links li a:hover::after {
+  width: 100%;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #08d665;
+  transition: transform 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #08d665;
+  cursor: pointer;
+}
+
+.navbar-btn {
+    background-color: #08d665;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    height: 48px;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.navbar-btn:after {
+    background-color: white;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    z-index: -1;
+    transform: translate(8px, 8px);
+    transition: transform 0.3s ease;
+}
+
+.navbar-btn:hover:after {
+    transform: translate(0, 0);
+}
+
+.navbar-btn:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.navbar-btn:hover {
+    outline: 0;
+}
