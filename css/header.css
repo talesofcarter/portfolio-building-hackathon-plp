@@ -25,6 +25,7 @@ nav {
 }
 
 .header-nav-links li a {
+  display: block;
   color: #c8c6c6;
   text-decoration: none;
   text-transform: uppercase;
@@ -52,6 +53,30 @@ nav {
   width: 100%;
 }
 
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(65deg, #2b2b2b 0%, #191919 100%);
+    min-width: 250px;
+}
+
+.dropdown-menu li a {
+    padding: 10px 15px;
+    color: #c8c6c6;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #08d665;
+    color: white;
+}
+
 .logo {
   font-size: 3.5rem;
   font-weight: 700;
@@ -69,53 +94,53 @@ nav {
 }
 
 .navbar-btn {
-    background-color: #08d665;
-    border: 2px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: white;
-    cursor: pointer;
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 16px;
-    height: 48px;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  background-color: #08d665;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  height: 48px;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 .navbar-btn:after {
-    background-color: white;
-    border-radius: 8px;
-    content: "";
-    display: block;
-    height: 48px;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: -2px;
-    z-index: -1;
-    transform: translate(8px, 8px);
-    transition: transform 0.3s ease;
+  background-color: white;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  z-index: -1;
+  transform: translate(8px, 8px);
+  transition: transform 0.3s ease;
 }
 
 .navbar-btn:hover:after {
-    transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .navbar-btn:active {
-    background-color: #ffdeda;
-    outline: 0;
+  background-color: #ffdeda;
+  outline: 0;
 }
 
 .navbar-btn:hover {
-    outline: 0;
+  outline: 0;
 }
