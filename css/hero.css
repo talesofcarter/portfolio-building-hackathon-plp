@@ -1,12 +1,16 @@
 .hero {
-  height: 100vh;
-  background-color: black;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+
   color: white;
-  padding: .5rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+  padding: .5rem 5rem;
 }
 
 .hero button {
