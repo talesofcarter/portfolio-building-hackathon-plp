@@ -6,7 +6,8 @@ nav {
   padding: 0 5rem;
   background: linear-gradient(135deg, #1a1a1a 0%, #0e0e0e 100%);
   color: white;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

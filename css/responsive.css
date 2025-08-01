@@ -1,87 +1,91 @@
 /* media queries for medium-size screens (iPad, Samsung Tabs, etc) */
-@media screen and (max-width: 768px) {
-  nav {
-    padding: 1rem 2rem;
-    flex-wrap: wrap;
-  }
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    .hero {
+      padding: 0.5rem 5rem;
+    }
 
-  .header-nav-links {
-    gap: 1.5rem;
-  }
+    .hero h1 {
+      font-size: 40px;
+    }
 
-  .header-nav-links li a {
-    font-size: 0.9rem;
-  }
+    .hero button {
+      width: 50%;
+      padding: 15px;
+      font-size: 18px;
+    }
 
-  .logo,
-  .icon {
-    font-size: 1.3rem;
+    .hero button:hover .second {
+      margin-right: 40px;
+    }
+
+    .hero button:hover .span {
+      transform: skewX(10deg);
+    }
+
+    .hero button:hover .one,
+    .hero button:hover .two {
+      transform: translateX(0%);
+      animation: color_anim 1s infinite;
+    }
+    
   }
-}
 
 /* media queries for mobile screens */
 @media screen and (max-width: 600px) {
-  nav {
-    padding: 1rem;
-    position: relative;
+  .hero {
+    padding: 0.5rem 2rem;
   }
 
-  .header-nav-links {
-    display: none;
-    flex-direction: column;
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero button {
     width: 100%;
-    background: #1a1a1a;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 16px;
   }
 
-  .header-nav-links.active {
-    display: flex;
+  .hero button:hover .second {
+    margin-right: 30px;
   }
 
-  .header-nav-links li {
-    margin: 0.5rem 0;
+  .hero button:hover .span {
+    transform: skewX(10deg);
   }
 
-  .header-nav-links li a {
-    font-size: 1rem;
-    padding: 0.5rem 0;
-    display: block;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .logo {
-    flex-grow: 1;
-  }
-
-  .icon {
-    margin-right: 1rem;
+  .hero button:hover .one,
+  .hero button:hover .two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite;
   }
 }
 
 /* media queries for large screens */
 @media screen and (min-width: 1200px) {
-  nav {
-    padding: 1.5rem 8rem;
+  .hero {
+    padding: 0.5rem 10rem;
   }
 
-  .header-nav-links {
-    gap: 3rem;
+  .hero h1 {
+    font-size: 60px;
   }
 
-  .header-nav-links li a {
-    font-size: 1.1rem;
+  .hero button {
+    width: 40%;
   }
 
-  .logo,
-  .icon {
-    font-size: 1.8rem;
+  .hero button:hover .second {
+    margin-right: 60px;
+  }
+  
+  .hero button:hover .span {
+    transform: skewX(20deg);
+  }
+  
+  .hero button:hover .one,
+  .hero button:hover .two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite;
   }
 }
