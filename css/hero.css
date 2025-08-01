@@ -1,35 +1,106 @@
 .hero {
-  background-image: url('../images/background.jpg');
+  background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
-
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 50px;
-  padding: .5rem 5rem;
+  gap: 30px;
+  padding: 0.5rem 5rem;
 }
 
 .hero button {
-    width: 20%;
-    background-color:#08d665;
-    color: white;
-    padding: 1rem 0;
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 16px;
-    border: 2px solid white;
-    border-radius: 8px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  padding: 11px 33px;
+  text-decoration: none;
+  color: white;
+  background: #0ce66e;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  border: none;
+  cursor: pointer;
+  width: 30%;
 }
 
-.sub-heading {
-  color: #08d665;
+.hero button:focus {
+  outline: none;
+}
+
+.hero button:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 white;
+}
+
+.hero button .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.hero button:hover .second {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.span {
+  transform: skewX(15deg);
+}
+
+.second {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.hero button:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.hero button:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.hero button:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: black;
+  }
+
+  100% {
+    fill: white;
+  }
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  margin: 0;
+  font-size: 50px;
+  color: #08d665;
 }
 
 .hero p {
