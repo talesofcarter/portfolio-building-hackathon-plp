@@ -1,188 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kelvin's Portfolio</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/hero.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/education.css">
-  </head>
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav>
-        <!-- Logo -->
-        <section>
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 24 24"
-            class="logo"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11.676 2.001l.324 -.001c7.752 0 10 2.248 10 10l-.005 .642c-.126 7.235 -2.461 9.358 -9.995 9.358l-.642 -.005c-7.13 -.125 -9.295 -2.395 -9.358 -9.67v-.325c0 -7.643 2.185 -9.936 9.676 -9.999m2.854 5.151a1 1 0 0 0 -1.378 .318l-2.152 3.443v-2.913a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v8a1 1 0 0 0 2 0v-2.914l2.152 3.444a1 1 0 0 0 1.276 .374l.102 -.056l.095 -.068a1 1 0 0 0 .223 -1.31l-2.17 -3.47l2.17 -3.47a1 1 0 0 0 -.318 -1.378"
-            ></path>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin's Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/education.css">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <!-- Logo -->
+      <section>
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="logo" height="1em"
+          width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.676 2.001l.324 -.001c7.752 0 10 2.248 10 10l-.005 .642c-.126 7.235 -2.461 9.358 -9.995 9.358l-.642 -.005c-7.13 -.125 -9.295 -2.395 -9.358 -9.67v-.325c0 -7.643 2.185 -9.936 9.676 -9.999m2.854 5.151a1 1 0 0 0 -1.378 .318l-2.152 3.443v-2.913a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v8a1 1 0 0 0 2 0v-2.914l2.152 3.444a1 1 0 0 0 1.276 .374l.102 -.056l.095 -.068a1 1 0 0 0 .223 -1.31l-2.17 -3.47l2.17 -3.47a1 1 0 0 0 -.318 -1.378">
+          </path>
+        </svg>
+      </section>
+      <!-- Navigation Links -->
+      <section>
+        <ul class="header-nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Education</a></li>
+          <li><a href="">Interests</a></li>
+          <li class="dropdown">
+            <span class="dropdown-toggle">
+              <a href="">Projects</a>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+
+            <ul class="dropdown-menu">
+              <li><a href="">01. Martian Horse</a></li>
+              <li><a href="">02. Jean-Carol Memorial</a></li>
+              <li><a href="">03. Assembly Endgame</a></li>
+              <li><a href="">04. Tenzies</a></li>
+            </ul>
+          </li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </section>
+      <!-- Social Media Links -->
+      <section>
+        <button class="navbar-btn">LET'S CONNECT</button>
+      </section>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero or Home -->
+    <section class="hero">
+      <h2>Hello, I'm Kelvin Juma</h2>
+      <h1>FULL-STACK DEVELOPER</h1>
+      <p>
+        Innovation is taking two things that exist <br />and putting them
+        together in a new way.
+      </p>
+
+      <button>
+        <span class="span">GET STARTED</span>
+        <span class="second">
+          <svg width="50px" height="20px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path class="one"
+                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="two"
+                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                fill="#FFFFFF"></path>
+              <path class="three"
+                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                fill="#FFFFFF"></path>
+            </g>
           </svg>
-        </section>
-        <!-- Navigation Links -->
-        <section>
-          <ul class="header-nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Interests</a></li>
-            <li class="dropdown">
-              <span class="dropdown-toggle">
-                <a href="">Projects</a>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                  />
-                </svg>
-              </span>
+        </span>
+      </button>
+    </section>
 
-              <ul class="dropdown-menu">
-                <li><a href="">01. Martian Horse</a></li>
-                <li><a href="">02. Jean-Carol Memorial</a></li>
-                <li><a href="">03. Assembly Endgame</a></li>
-                <li><a href="">04. Tenzies</a></li>
-              </ul>
-            </li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </section>
-        <!-- Social Media Links -->
-        <section>
-          <button class="navbar-btn">LET'S CONNECT</button>
-        </section>
-      </nav>
-    </header>
-    <main>
-      <!-- Hero or Home -->
-      <section class="hero">
-        <h2>Hello, I'm Kelvin Juma</h2>
-        <h1>FULL-STACK DEVELOPER</h1>
+    <!-- About Section -->
+    <section class="about-section">
+      <section class="about-content">
+        <h1>ABOUT ME</h1>
+        <h2>
+          <span>IMAGINATION</span> IS THE <br />
+          CONDIMENT THAT SPARKS CREATIVITY
+        </h2>
         <p>
-          Innovation is taking two things that exist <br />and putting them
-          together in a new way.
+          I am a passionate full-stack developer with a keen interest in
+          building innovative <br />
+          web applications. My journey in tech has been driven by a love
+          <br />
+          for problem-solving and a desire to create impactful solutions.
         </p>
-
-        <button>
-          <span class="span">GET STARTED</span>
-          <span class="second">
-            <svg
-              width="50px"
-              height="20px"
-              viewBox="0 0 66 43"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <g
-                id="arrow"
-                stroke="none"
-                stroke-width="1"
-                fill="none"
-                fill-rule="evenodd"
-              >
-                <path
-                  class="one"
-                  d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
-                  fill="#FFFFFF"
-                ></path>
-                <path
-                  class="two"
-                  d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
-                  fill="#FFFFFF"
-                ></path>
-                <path
-                  class="three"
-                  d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
-                  fill="#FFFFFF"
-                ></path>
-              </g>
-            </svg>
-          </span>
+        <button class="about-btn">
+          <span class="transition"></span>
+          <span class="gradient"></span>
+          <span class="label">Learn More</span>
         </button>
       </section>
+    </section>
 
-      <!-- About Section -->
-      <section class="about-section">
-        <section class="about-content">
-          <h1>ABOUT ME</h1>
-          <h2>
-            <span>IMAGINATION</span> IS THE <br />
-            CONDIMENT THAT SPARKS CREATIVITY
-          </h2>
-          <p>
-            I am a passionate full-stack developer with a keen interest in
-            building innovative <br />
-            web applications. My journey in tech has been driven by a love
-            <br />
-            for problem-solving and a desire to create impactful solutions.
-          </p>
-          <button class="about-btn">
-            <span class="transition"></span>
-            <span class="gradient"></span>
-            <span class="label">Learn More</span>
-          </button>
-        </section>
+    <!-- Education Section -->
+    <section class="education-section">
+      <section class="upper-section">
+        <div>
+          <h1>MY EDUCATION</h1>
+          <h2>KNOWLEDGE AND SKILL</h2>
+        </div>
+
+        <div>
+          <p>A quick overview of my educational journey through the years. From a business graduate to a full-stack web
+            developer, my experience has been a roller coaster.</p>
+        </div>
       </section>
 
-      <!-- Education Section -->
-       <section class="education-section">
-        <section class="upper-section"></section>
-        <section class="lower-section">
-          <div>
-            <h2>Full-Stack Development</h2>
-            <p>Power Learn Project</p>
-            <span>2025 - 2025</span>
-          </div>
+      <section class="lower-section">
+        <div>
+          <h2>Full-Stack Development</h2>
+          <p>Power Learn Project</p>
+          <span>2025 - 2025</span>
+        </div>
 
-          <div>
-            <h2>The Frontend Career Path</h2>
-            <p>Scrimba</p>
-            <span>2024 - 2025</span>
-          </div>
+        <div>
+          <h2>The Frontend Career Path</h2>
+          <p>Scrimba</p>
+          <span>2024 - 2025</span>
+        </div>
 
-          <div>
-            <h2>Purchasing & Supplies <br> Management</h2>
-            <p>Moi University</p>
-            <span>2014 - 2019</span>
-          </div>
+        <div>
+          <h2>Purchasing & Supplies <br> Management</h2>
+          <p>Moi University</p>
+          <span>2014 - 2019</span>
+        </div>
 
-          <div>
-            <h2>High School Diploma</h2>
-            <p>Thurdibuoro Secondary</p>
-            <span>2010 - 2013</span>
-          </div>
-        </section>
-       </section>
-    </main>
-  </body>
+        <div>
+          <h2>High School Diploma</h2>
+          <p>Thurdibuoro Secondary</p>
+          <span>2010 - 2013</span>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+
 </html>

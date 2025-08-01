@@ -1,8 +1,22 @@
 .education-section {
-    background-color: black;
     color: white;
-    height: 100vh;
     padding: 8px 80px;
+    margin-top: 50px;
+}
+
+.education-section .upper-section {
+    display: flex;
+    gap: 50px;
+}
+
+.education-section .upper-section div {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.education-section .upper-section h1 {
+    color: #08d665;
 }
 
 .education-section .lower-section {
