@@ -1,0 +1,48 @@
+.education-section {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding: 8px 80px;
+}
+
+.education-section .lower-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.lower-section div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 150px;
+    background-color: #252525;
+    border: 1px solid #252525;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    transition: border 0.3s ease-in-out;
+}
+
+.lower-section div:hover {
+    border: 1px solid #08d665;
+    transition: border 0.3s ease-in-out;
+}
+
+.lower-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #c8c6c6;
+}
+
+.lower-section span {
+    background-color: #08d665;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
