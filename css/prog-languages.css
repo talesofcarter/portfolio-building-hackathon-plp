@@ -1,0 +1,86 @@
+.prog-languages-section {
+  height: 120vh;
+  color: white;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prog-languages-section .upper-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.prog-languages-section .upper-section h1 {
+  color: #08d665;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.prog-languages-section .upper-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c8c6c6;
+  text-transform: uppercase;
+}
+
+.prog-languages-section .lower-section {
+  max-width: 1200px;
+  background: color #252525;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.prog-language {
+  background-color: #252525;
+  width: 100%;
+  padding: 20px;
+  height: 80px;
+  position: relative;
+}
+
+.prog-language p {
+  font-size: 16px;
+}
+
+.prog-language div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  background-color: #08d665;
+  height: 8px;
+}
+
+.prog-language span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color:#08d665;
+  padding: 5px 10px;
+}
+
+.html-lang,
+.css-lang,
+.js-lang {
+  width: 80%;
+}
+
+.react-lang {
+  width: 80%;
+}
+
+.python-lang {
+  width: 30%
+}
+
+.node-lang,
+.mongo-data {
+  width: 25%;
+}
+
+.tailwind-lang {
+  width: 65%;
+}

@@ -2,10 +2,24 @@
   display: flex;
   flex-direction: column;
   row-gap: 50px;
-  height: 100vh;
+  height: 120vh;
   color: white;
   background: #121212;
   padding: 100px 80px;
+}
+
+.interests-section .upper-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 20px;
+  margin-bottom: 30px;
+}
+
+.interests-section .upper-section p {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .interests-section .upper-section h1 {

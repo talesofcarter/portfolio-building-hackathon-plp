@@ -31,16 +31,8 @@
 }
 
 .education-section .upper-section p {
-  background: linear-gradient(135deg, #1a1a1a 0%, #0e0e0e 100%);
-  padding: 20px;
   font-size: 18px;
   font-weight: 500;
-  transform: skewX(-15deg);
-  transition: all 0.5s ease-in-out;
-}
-
-.education-section .upper-section p:hover {
-  transform: translateY(-5px);
 }
 
 .education-section .lower-section {
@@ -105,5 +97,5 @@
 
 .download-btn:hover {
   background: white;
-  color:#08d665;
+  color: #08d665;
 }
