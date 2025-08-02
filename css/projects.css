@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-
 }
 
 .project-description button {
@@ -48,7 +47,7 @@
 }
 
 .project-description button:hover svg {
-    color: white;
+  color: white;
 }
 
 .project-description button svg {
@@ -64,3 +63,61 @@
   display: flex;
   gap: 20px;
 }
+
+.projects-section .lower-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.projects-section .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #252525;
+  height: 500px;
+  padding: 50px 50px 0 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.projects-section .carousel-item h2 {
+  color: #08d665;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sharing-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.sharing-icons a {
+  background-color: #08d665;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.sharing-icons a:hover {
+  color: #181818;
+  background: white;
+}
+
+.sharing-icons svg {
+  fill: #08d665;
+  width: 50px;
+}
+
+
+
