@@ -3,7 +3,7 @@
   flex-direction: column;
   row-gap: 50px;
   color: white;
-  padding: 8px 80px;
+  padding: 100px 80px;
   margin-top: 50px;
 }
 
@@ -29,6 +29,7 @@
   font-weight: 500;
   color: #c8c6c6;
 }
+
 .education-section .upper-section p {
   background: linear-gradient(135deg, #1a1a1a 0%, #0e0e0e 100%);
   padding: 20px;
@@ -49,7 +50,7 @@
   gap: 30px;
 }
 
-.lower-section div {
+.education-section .lower-section div {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -63,18 +64,18 @@
   transition: border 0.3s ease-in-out;
 }
 
-.lower-section div:hover {
+.education-section .lower-section div:hover {
   border: 1px solid #08d665;
   transition: border 0.3s ease-in-out;
 }
 
-.lower-section p {
+.education-section .lower-section p {
   font-size: 18px;
   font-weight: 500;
   color: #c8c6c6;
 }
 
-.lower-section span {
+.education-section .lower-section span {
   background-color: #08d665;
   padding: 10px 20px;
   position: absolute;

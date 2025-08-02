@@ -1,3 +1,111 @@
 .interests-section {
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  height: 100vh;
+  color: white;
+  background: #121212;
+  padding: 100px 80px;
+}
+
+.interests-section .upper-section h1 {
+  color: #08d665;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.interests-section .upper-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c8c6c6;
+  text-transform: uppercase;
+}
+
+.interests-section .lower-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+/* CSS for carousels and animations */
+.interests-section .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #252525;
+  height: 400px;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.interests-section .carousel-item h2 {
+  font-size: 1.5rem;
+  color: #08d665;
+  position: relative;
+  z-index: 2;
+}
+
+.interests-section .carousel-item p {
+  font-size: 18px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #c8c6c6;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.interests-section .carousel-item img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.interests-section .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg,
+    transparent,
+    transparent 30%,
+    rgb(8, 214, 101, 0.9)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.interests-section .carousel-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgb(8, 214, 101, 0.9);
+}
+
+.interests-section .carousel-item:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.interests-section .carousel-wrapper {
+  background: #111;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
 }
