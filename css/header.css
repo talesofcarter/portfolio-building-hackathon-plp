@@ -146,6 +146,10 @@ nav {
   transition: transform 0.3s ease;
 }
 
+.logo {
+  transform: scale(1.1)
+}
+
 .navbar-btn {
   background-color: #08d665;
   display: flex;
