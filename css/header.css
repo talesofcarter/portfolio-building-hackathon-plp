@@ -32,6 +32,8 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.05);
+  color: #08d665;
+  cursor: pointer;
 }
 
 .header-nav-links li a {
@@ -47,11 +49,6 @@ nav {
 .header-nav-links li a:hover {
   color: #08d665;
   transition: color 0.3s ease-in-out;
-}
-
-.header-nav-links li:hover {
-  color: #08d665;
-  cursor: pointer;
 }
 
 .header-nav-links li::after {
@@ -122,16 +119,10 @@ nav {
   display: flex;
 }
 
-.dropdown svg {
+.dropdown-toggle svg {
   color: #c8c6c6;
   width: 20px;
   transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.dropdown svg:hover {
-  color: #08d665;
-  rotate: 180deg;
-  transition: rotate 0.3s ease;
 }
 
 .dropdown-toggle {
@@ -141,6 +132,11 @@ nav {
   cursor: pointer;
 }
 
+.dropdown-toggle:hover svg {
+  color: #08d665;
+  transform: rotate(180deg);
+}
+
 .logo {
   font-size: 3.5rem;
   font-weight: 700;
@@ -148,8 +144,8 @@ nav {
   transition: transform 0.3s ease;
 }
 
-.logo {
-  transform: scale(1.1);
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .navbar-btn {
