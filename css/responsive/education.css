@@ -38,7 +38,7 @@
   }
 
   .education-section .lower-section div {
-    height: auto;
+    max-height: 140px;
     padding: 20px;
     gap: 15px;
   }
