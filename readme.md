@@ -37,10 +37,26 @@ The site includes the following major sections:
 ## 📷 Screenshots
 
 ### 📌 Desktop or Laptop
-![About Section](assets/screenshots/about.png)
-![Interests Section](assets/screenshots/interests.png)
-![Languages Section](assets/screenshots/languages.png)
-![Contact Section](assets/screenshots/contact.png)
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/about.png" alt="About Section" width="300"/></td>
+      <td><img src="assets/screenshots/interests.png" alt="Interests Section" width="300"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>About Section</strong></td>
+      <td align="center"><strong>Interests Section</strong></td>
+    </tr>
+    <tr>
+      <td><img src="assets/screenshots/languages.png" alt="Languages Section" width="300"/></td>
+      <td><img src="assets/screenshots/contact.png" alt="Contact Section" width="300"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Languages Section</strong></td>
+      <td align="center"><strong>Contact Section</strong></td>
+    </tr>
+  </table>
+</div>
 
 ### 📌 Mobile Devices
 ![Projects Section](assets/screenshots/projects.png)
