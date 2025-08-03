@@ -207,3 +207,16 @@ nav {
   align-items: center;
   gap: 2rem;
 }
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hamburger-menu {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: none;
+}
