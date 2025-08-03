@@ -1,0 +1,116 @@
+/* Breakpoint for Mobile devices */
+@media screen and (max-width: 768px) {
+  .interests-section {
+    height: auto;
+    padding: 40px 20px;
+    row-gap: 30px;
+  }
+
+  .interests-section .upper-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .interests-section .upper-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .interests-section .upper-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .interests-section .upper-section p {
+    font-size: 0.9rem;
+    padding: 10px;
+    line-height: 1.4;
+  }
+
+  .interests-section .lower-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .interests-section .carousel-item {
+    height: 300px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .interests-section .carousel-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .interests-section .carousel-item p {
+    font-size: 0.9rem;
+  }
+
+  .interests-section .carousel-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Tablet devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .interests-section {
+    height: auto;
+    padding: 60px 40px;
+    row-gap: 40px;
+  }
+
+  .interests-section .upper-section {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .interests-section .upper-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .interests-section .upper-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .interests-section .upper-section p {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .interests-section .lower-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .interests-section .carousel-item {
+    height: 350px;
+    padding: 30px;
+    gap: 15px;
+  }
+
+  .interests-section .carousel-item h2 {
+    font-size: 1.3rem;
+  }
+
+  .interests-section .carousel-item p {
+    font-size: 0.95rem;
+  }
+
+  .interests-section .carousel-item img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Desktop devices */
+@media screen and (min-width: 1025px) {
+  .interests-section {
+    padding: 100px 80px;
+  }
+
+  .interests-section .lower-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
