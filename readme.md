@@ -1,6 +1,6 @@
 # 🌐 Kelvin Juma | Developer Portfolio
 
-Welcome to my personal portfolio website. This is a responsive and modern web application showcasing my background, skills, and projects as a front-end developer.
+Welcome to my personal portfolio website. 
 
 ## 🔗 Live Demo
 
@@ -36,7 +36,14 @@ The site includes the following major sections:
 
 ## 📷 Screenshots
 
-*Optional: Add a few screenshots of different sections or devices.*
+### 📌 Desktop or Laptop
+![About Section](assets/screenshots/about.png)
+![Interests Section](assets/screenshots/interests.png)
+![Languages Section](assets/screenshots/languages.png)
+![Contact Section](assets/screenshots/contact.png)
+
+### 📌 Mobile Devices
+![Projects Section](assets/screenshots/projects.png)
 
 ---
 
