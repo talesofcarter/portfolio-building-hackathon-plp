@@ -90,6 +90,12 @@
   text-transform: uppercase;
 }
 
+.projects-section .carousel-item p {
+  color: #c8c6c6;
+  font-size: 1rem;
+  text-align: center;
+}
+
 .sharing-icons {
   display: flex;
   justify-content: space-between;
@@ -119,5 +125,12 @@
   width: 50px;
 }
 
+/* Carousel Item Animation */
+.projects-section .carousel-item {
+  transition: all 0.3s ease-in-out;
+}
 
-
+.projects-section .carousel-item:hover {
+  transform: translateY(-10px);
+  background-color:#1d1c1c;
+}
