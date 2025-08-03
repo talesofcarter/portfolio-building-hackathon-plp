@@ -13,7 +13,6 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/about.css" />
@@ -23,6 +22,16 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <!-- Responsive Design-->
+     <link rel="stylesheet" href="css/responsive/navbar.css">
+     <link rel="stylesheet" href="css/responsive/about.css">
+     <link rel="stylesheet" href="css/responsive/hero.css">
+     <link rel="stylesheet" href="css/responsive/education.css">
+     <link rel="stylesheet" href="css/responsive/interests.css">
+     <link rel="stylesheet" href="css/responsive/languages.css">
+     <link rel="stylesheet" href="css/responsive/projects.css">
+     <link rel="stylesheet" href="css/responsive/contact.css">
+     <link rel="stylesheet" href="css/responsive/footer.css">
   </head>
 
   <body>
@@ -47,41 +56,44 @@
           </svg>
         </section>
         <!-- Navigation Links -->
-        <section>
-          <ul class="header-nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Interests</a></li>
-            <li class="dropdown">
-              <span class="dropdown-toggle">
-                <a href="">Projects</a>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                  />
-                </svg>
-              </span>
+        <div class="nav-menu">
+          <section>
+            <ul class="header-nav-links">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Education</a></li>
+              <li><a href="">Interests</a></li>
+              <li class="dropdown">
+                <span class="dropdown-toggle">
+                  <a href="">Projects</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </span>
 
-              <ul class="dropdown-menu">
-                <li><a href="">01. Martian Horse</a></li>
-                <li><a href="">02. Jean-Carol Memorial</a></li>
-                <li><a href="">03. Assembly Endgame</a></li>
-                <li><a href="">04. Tenzies</a></li>
-              </ul>
-            </li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </section>
+                <ul class="dropdown-menu">
+                  <li><a href="">01. Martian Horse</a></li>
+                  <li><a href="">02. Jean-Carol Memorial</a></li>
+                  <li><a href="">03. Assembly Endgame</a></li>
+                  <li><a href="">04. Tenzies</a></li>
+                </ul>
+              </li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </section>
+        </div>
+
         <!-- Social Media Links -->
         <section>
           <button class="navbar-btn">LET'S CONNECT</button>

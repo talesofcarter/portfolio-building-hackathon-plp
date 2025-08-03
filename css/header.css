@@ -114,6 +114,10 @@ nav {
   transition: width 0.3s ease-in-out;
 }
 
+.dropdown {
+  position: relative;
+}
+
 .dropdown div {
   display: flex;
 }
@@ -121,7 +125,7 @@ nav {
 .dropdown svg {
   color: #c8c6c6;
   width: 20px;
-  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .dropdown svg:hover {
@@ -134,8 +138,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 5px;
-  height: 100%;
-  padding: 0;
   cursor: pointer;
 }
 
@@ -147,7 +149,7 @@ nav {
 }
 
 .logo {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .navbar-btn {
@@ -198,4 +200,10 @@ nav {
 
 .navbar-btn:hover {
   outline: 0;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
