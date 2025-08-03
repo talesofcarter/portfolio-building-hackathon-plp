@@ -59,7 +59,22 @@ The site includes the following major sections:
 </div>
 
 ### 📌 Mobile Devices
-![Projects Section](assets/screenshots/projects.png)
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="assets/screenshots/s1.jpg" alt="Portrait 1" height="400"/></td>
+      <td><img src="assets/screenshots/s2.jpg" alt="Portrait 2" height="400"/></td>
+      <td><img src="assets/screenshots/s3.jpg" alt="Portrait 3" height="400"/></td>
+      <td><img src="assets/screenshots/s4.jpg" alt="Portrait 4" height="400"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Screenshot 1</strong></td>
+      <td align="center"><strong>Screenshot 2</strong></td>
+      <td align="center"><strong>Screenshot 3</strong></td>
+      <td align="center"><strong>Screenshot 4</strong></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
