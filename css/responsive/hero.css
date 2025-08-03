@@ -1,0 +1,85 @@
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 0.5rem 1.5rem;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .hero button {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    width: 100%;
+  }
+
+  .hero button .second {
+    margin-left: 15px;
+    width: 15px;
+  }
+
+  .hero button:hover .second {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    height: auto;
+    padding: 0.5rem 3rem;
+    margin-top: 70px;
+    gap: 25px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .hero button {
+    font-size: 1rem;
+    padding: 10px 25px;
+    width: 50%;
+  }
+
+  .hero button .second {
+    margin-left: 20px;
+    width: 18px;
+  }
+
+  .hero button:hover .second {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    height: 90vh;
+    padding: 0.5rem 5rem;
+    margin-top: 100px;
+  }
+
+  .hero button {
+    width: 30%;
+  }
+}
