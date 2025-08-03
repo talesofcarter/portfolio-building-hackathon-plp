@@ -30,15 +30,13 @@ nav {
 
 .header-nav-links li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.05);
-  color: #08d665;
+  background: #08d665;
   cursor: pointer;
 }
 
 .header-nav-links li a {
   display: block;
-  color: #c8c6c6;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
@@ -47,7 +45,7 @@ nav {
 }
 
 .header-nav-links li a:hover {
-  color: #08d665;
+  color: black;
   transition: color 0.3s ease-in-out;
 }
 
@@ -55,10 +53,10 @@ nav {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 4px;
   bottom: 0;
   left: 0;
-  background-color: #08d665;
+  background-color: white;
   transition: all 0.3s ease-in-out;
 }
 
@@ -134,7 +132,7 @@ nav {
 }
 
 .dropdown:hover svg {
-  color: #08d665;
+  color: white;
   transform: rotate(180deg);
 }
 
