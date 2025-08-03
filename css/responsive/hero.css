@@ -1,26 +1,27 @@
 @media screen and (max-width: 768px) {
   .hero {
-    height: auto;
-    padding: 0.5rem 1.5rem;
-    margin-top: 50px;
-    gap: 20px;
+    height: auto; /* Keep auto height for flexibility */
+    padding: 2rem 1.5rem; /* Increased padding to reduce congestion */
+    margin-top: 80px; /* Adjusted to account for header height */
+    gap: 25px; /* Increased gap for better spacing */
+    min-height: 60vh; /* Ensure minimum height for content */
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem; /* Slightly smaller for mobile */
   }
 
   .hero h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .hero p {
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.85rem;
+    line-height: 1.5;
   }
 
   .hero button {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     padding: 8px 20px;
     width: 100%;
   }
@@ -38,28 +39,29 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero {
     height: auto;
-    padding: 0.5rem 3rem;
-    margin-top: 70px;
-    gap: 25px;
+    padding: 2.5rem 3rem;
+    margin-top: 90px;
+    gap: 30px;
+    min-height: 70vh;
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .hero h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 0.95rem;
     line-height: 1.5;
   }
 
   .hero button {
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 10px 25px;
-    width: 50%;
+    width: 60%; /* Slightly wider button for tablet */
   }
 
   .hero button .second {

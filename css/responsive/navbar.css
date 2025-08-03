@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem; /* Increased padding for better spacing */
+    flex-direction: column;
+    align-items: center; /* Center logo for cleaner look */
+    gap: 10px;
+  }
+
+  .nav-menu {
+    display: none; /* Hide navigation links on mobile */
+  }
+
+  .navbar-btn {
+    display: none; /* Hide connect button on mobile */
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    padding: 1.5rem 3rem; /* Adjusted padding for balanced layout */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center logo for tablet */
+  }
+
+  .nav-menu {
+    display: none; /* Hide navigation links on tablet */
+  }
+
+  .navbar-btn {
+    display: none; /* Hide connect button on tablet */
+  }
+
+  .logo {
+    font-size: 2.5rem; /* Slightly smaller logo for tablet */
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  nav {
+    padding: 0 5rem; /* Original padding for desktop */
+  }
+
+  .header-nav-links {
+    gap: 2rem;
+  }
+
+  .nav-menu {
+    gap: 2rem;
+    display: flex; /* Ensure nav links are visible on desktop */
+  }
+
+  .navbar-btn {
+    max-width: 100%;
+  }
+}
