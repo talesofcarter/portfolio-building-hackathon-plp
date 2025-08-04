@@ -1,4 +1,8 @@
-# 🌐 Kelvin Juma | Developer Portfolio
+# July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀 - Power Learn Project
+
+My Approach to Power Learn Project Hackathon 1: Building a Professional Portfolio Website Using Industry Best Practices.
+
+## 🌐 Kelvin Juma | Developer Portfolio
 
 Welcome to my personal portfolio website. 
 
@@ -10,7 +14,7 @@ Welcome to my personal portfolio website.
 
 ## 📌 Description
 
-This portfolio is designed to give visitors an overview of who I am, what I do, and what I’ve worked on. It highlights my technical skills, education, interests, and language proficiencies while also providing an easy way to contact me.
+This portfolio offers a clear snapshot of who I am, what I do, and the projects I've worked on. It showcases my technical skills, education, interests, and language proficiencies—all while making it easy for visitors to get in touch with me.
 
 ---
 
@@ -18,6 +22,24 @@ This portfolio is designed to give visitors an overview of who I am, what I do, 
 
 - **HTML5**
 - **CSS3**
+
+---
+## Dependencies
+
+- **Google Fonts**
+- *Space Grotesk*
+
+- **Google Icons**
+- *Hamburger Menu*
+- *Arrows*
+- *Palette*
+- *Controller*
+- *Book*
+- *Shopping bag*
+- *Flower*
+- *Crossword*
+- *Notepad*
+- *Calendar*
 
 ---
 
