@@ -4,11 +4,11 @@ My Approach to Power Learn Project Hackathon 1: Building a Professional Portfoli
 
 ## 🌐 Kelvin Juma | Developer Portfolio
 
-Welcome to my personal portfolio website. 
+Welcome to my personal portfolio website.
 
 ## 🔗 Live Demo
 
-[Visit the Website](https://kelvinsportfolio.vercel.app)  
+[Visit the Website](https://kelvinsportfolio.vercel.app)
 
 ---
 
@@ -24,22 +24,24 @@ This portfolio offers a clear snapshot of who I am, what I do, and the projects 
 - **CSS3**
 
 ---
-## Dependencies
+
+## 📦 Dependencies
 
 - **Google Fonts**
-    - Space Grotesk
+
+  - Space Grotesk
 
 - **Google Icons**
-    - Hamburger Menu
-    - Arrows
-    - Palette
-    - Controller
-    - Book
-    - Shopping bag
-    - Flower
-    - Crossword
-    - Notepad
-    - Calendar
+  - Hamburger Menu
+  - Arrows
+  - Palette
+  - Controller
+  - Book
+  - Shopping bag
+  - Flower
+  - Crossword
+  - Notepad
+  - Calendar
 
 ---
 
@@ -58,7 +60,8 @@ The site includes the following major sections:
 
 ## 📷 Screenshots
 
-### 📌 Desktop or Laptop
+### 💻 Desktop or Laptop
+
 <div align="center">
   <table>
     <tr>
@@ -80,7 +83,8 @@ The site includes the following major sections:
   </table>
 </div>
 
-### 📌 Mobile Devices
+### 📱 Mobile Devices
+
 <div align="center">
   <table>
     <tr>
@@ -103,5 +107,14 @@ The site includes the following major sections:
 ## 🧪 How to Run Locally
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/talesofcarter/portfolio-building-hackathon-plp
+
+   ```
+
+2. Run the project:
+   ```bash
+   In your computer, open the index.html file with live server
+   
+   ```
