@@ -32,16 +32,16 @@ This portfolio offers a clear snapshot of who I am, what I do, and the projects 
   - Space Grotesk
 
 - **Google Icons**
-  - Hamburger Menu
-  - Arrows
-  - Palette
-  - Controller
-  - Book
-  - Shopping bag
-  - Flower
-  - Crossword
-  - Notepad
-  - Calendar
+  - 🍔 Hamburger Menu
+  - ⬆️ Arrows
+  - 🎨 Palette
+  - 🎮 Controller
+  - 📚 Book
+  - 🛍️ Shopping bag
+  - 🌷 Flower
+  - 📜 Crossword
+  - 📝 Notepad
+  - 📅 Calendar
 
 ---
 
@@ -116,5 +116,5 @@ The site includes the following major sections:
 2. Run the project:
    ```bash
    In your computer, open the index.html file with live server
-   
+
    ```
