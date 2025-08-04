@@ -27,19 +27,19 @@ This portfolio offers a clear snapshot of who I am, what I do, and the projects 
 ## Dependencies
 
 - **Google Fonts**
-- *Space Grotesk*
+    - *Space Grotesk*
 
 - **Google Icons**
-- *Hamburger Menu*
-- *Arrows*
-- *Palette*
-- *Controller*
-- *Book*
-- *Shopping bag*
-- *Flower*
-- *Crossword*
-- *Notepad*
-- *Calendar*
+    - *Hamburger Menu*
+    - *Arrows*
+    - *Palette*
+    - *Controller*
+    - *Book*
+    - *Shopping bag*
+    - *Flower*
+    - *Crossword*
+    - *Notepad*
+    - *Calendar*
 
 ---
 
